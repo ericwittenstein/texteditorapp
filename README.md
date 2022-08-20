@@ -29,11 +29,15 @@ npm i
 
 ## Usage
 
-The deployed app is availbe HERE. To run from a cloned repo, run the app from the command line by typing the following command: ```npm start```
+The deployed app is availbe HERE. To run from a cloned repo, run the app from the command line by typing the following command: 
+
+```
+npm start
+```
 
 ## License
 
-This project is licensed under the MIT license.
+This project is licensed under the MIT license. Learn more [HERE](LICENSE).
 
 ## GitHub Repo
 
@@ -70,4 +74,3 @@ You can find more of my work at [github.com/ericwittenstein/](https://github.com
  -->
 
 ### Eric Wittenstein
-
