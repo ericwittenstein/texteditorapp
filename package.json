@@ -20,6 +20,8 @@
   },
   "devDependencies": {
     "concurrently": "^5.2.0",
-    "nodemon": "^2.0.4"
+    "nodemon": "^2.0.4",
+    "mini-css-extract-plugin": "2.6.1",
+    "workbox-webpack-plugin": "6.5.4"
   }
 }

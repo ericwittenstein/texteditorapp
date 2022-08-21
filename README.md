@@ -34,6 +34,11 @@ The deployed app is availbe HERE. To run from a cloned repo, run the app from th
 ```
 npm start
 ```
+followed by the command
+```
+npm run build
+```
+
 
 ## License
 
