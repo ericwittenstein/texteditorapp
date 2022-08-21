@@ -1,6 +1,6 @@
 import { openDB } from "idb";
 
-const initdb = async () => {
+const initdb = async () =>
 	openDB("jate", 1, {
 		upgrade(db) {
 			if (db.objectStoreNames.contains("jate")) {
@@ -14,7 +14,6 @@ const initdb = async () => {
 			console.log("jate database created");
 		},
 	});
-};
 
 // method that accepts some content and adds it to the database
 export const putDb = async (id, content) => {
@@ -32,7 +31,7 @@ export const putDb = async (id, content) => {
 	// Use the .put() method on the store and pass in the content.
 	const request = store.put({
 		id: id,
-		jate: content
+		jate: content,
 	});
 
 	// Get confirmation of the request.
