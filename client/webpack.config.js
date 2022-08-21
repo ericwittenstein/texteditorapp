@@ -1,8 +1,8 @@
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const WebpackPwaManifest = require("webpack-pwa-manifest");
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const path = require("path");
 const { InjectManifest } = require("workbox-webpack-plugin");
-const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 // webpack config files sets up bundling for deployment
 module.exports = () => {
@@ -72,7 +72,7 @@ module.exports = () => {
 				},
 				{
 					test: /\.m?js$/,
-					exclude: /node_modules/,
+					exclude: /node_modules|bower-components/,
 					// We use babel-loader in order to use ES6.
 					use: {
 						loader: "babel-loader",

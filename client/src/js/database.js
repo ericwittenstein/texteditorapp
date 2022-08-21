@@ -16,7 +16,7 @@ const initdb = async () => {
 	});
 };
 
-// Export a function we will use to POST to the database.
+// method that accepts some content and adds it to the database
 export const putDb = async (id, content) => {
 	console.error("putDb not implemented");
 
@@ -32,7 +32,7 @@ export const putDb = async (id, content) => {
 	// Use the .put() method on the store and pass in the content.
 	const request = store.put({
 		id: id,
-		jatenote: content,
+		jate: content
 	});
 
 	// Get confirmation of the request.
@@ -51,7 +51,7 @@ export const getDb = async () => {
 	const tx = jateDb.transaction("jate", "readonly");
 
 	// Open up the desired object store.
-	const store = tx.objectStore("contact");
+	const store = tx.objectStore("jate");
 
 	// Use the .getAll() method to get all data in the database.
 	const request = store.getAll();
@@ -59,7 +59,7 @@ export const getDb = async () => {
 	// Get confirmation of the request.
 	const result = await request;
 	console.log("result.value", result);
-	return result;
+	return result.value;
 };
 
 initdb();

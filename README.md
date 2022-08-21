@@ -3,7 +3,7 @@
 
 ## Description
 
-This project is a PWA-compatible app for text editing and note taking. The deployed version of this app is available on Heroku (link below).
+This project is a PWA-compatible app for text editing and note taking. The deployed version of this app is available on Heroku [HERE](https://ehwjate.herokuapp.com/).
 
 ## Table of Contents 
 
@@ -29,16 +29,11 @@ npm i
 
 ## Usage
 
-The deployed app is availbe HERE. To run from a cloned repo, run the app from the command line by typing the following command: 
+The deployed app is available [HERE](https://ehwjate.herokuapp.com/). To run from a cloned repo, run the app from the command line by typing the following command: 
 
 ```
 npm start
 ```
-followed by the command
-```
-npm run build
-```
-
 
 ## License
 
