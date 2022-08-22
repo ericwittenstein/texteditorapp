@@ -45,8 +45,6 @@ module.exports = () => {
 				name: "JATE",
 				short_name: "JATE",
 				description: "Never lose your notes again!",
-				background_color: "#225ca3",
-				theme_color: "#225ca3",
 				start_url: "./",
 				publicPath: "./",
 				icons: [

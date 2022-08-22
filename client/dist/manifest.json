@@ -36,7 +36,5 @@
   "orientation": "portrait",
   "display": "standalone",
   "start_url": "./",
-  "description": "Never lose your notes again!",
-  "background_color": "#225ca3",
-  "theme_color": "#225ca3"
+  "description": "Never lose your notes again!"
 }
